@@ -1,0 +1,184 @@
+.transferbox {
+  width: 100%;
+  margin: 10rem auto;
+  background-color: #21242d;
+  display: flex;
+  border-radius: 36px;
+}
+
+.selectPanel {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  max-width: 800px;
+  padding: 30px 10px;
+}
+
+.separator {
+  border-right: 1px solid rgba(38, 42, 55, 1);
+}
+
+.selectPanel p {
+  color: white;
+  margin-top: 5px;
+}
+
+.selectPanel input {
+  border-radius: 10px;
+  height: 32px;
+  background-color: rgba(37, 40, 49, 1);
+  color: rgba(73, 78, 94, 1);
+  text-align: left;
+  padding: 0 0 0 15px;
+  border: none;
+  margin-top: 5px;
+}
+.selectPanel input:focus {
+  outline: none;
+}
+
+.listBtn {
+  border: none;
+  color: rgba(112, 120, 200, 1);
+}
+
+.selectPanel .selectPanelSection2 {
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrapBox {
+  padding: 15px;
+  width: 300px;
+}
+.wrapBox p {
+  color: white;
+  margin-top: 5px;
+}
+
+.wrapBox .selectedNFT {
+  height: 340px;
+  width: 400px;
+  background-color: #20232c;
+  border-radius: 30px;
+}
+
+.wrapBox .selectedNFT .heading {
+  text-align: left;
+}
+.wrapBox .selectedNFT input {
+  width: 60%;
+  border-radius: 10px;
+  height: 32px;
+  background-color: rgba(37, 40, 49, 1);
+  color: rgba(73, 78, 94, 1);
+  text-align: left;
+  padding: 0 0 0 15px;
+  border: none;
+}
+.wrapBox .selectedNFT .inputBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+.wrapBox .selectedNFT button {
+  height: 28px;
+  width: 28px;
+  background-color: #20232c;
+  outline: none;
+  border: none;
+}
+.wrapBox .selectedNFT input:focus {
+  outline: none;
+}
+
+.countDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.selectedNFTrow {
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  padding: 10px;
+  margin-top: 15px;
+}
+.selectedNFTrow div {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.selectedNFTrow div img {
+  height: 27px;
+  width: 29px;
+}
+
+.selectedNFTrow button {
+  color: white;
+}
+
+.fees {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(32, 35, 44, 1);
+}
+
+.wrapButton {
+  height: 65px;
+  width: 400px;
+  border-radius: 23px;
+  background-color: rgba(73, 58, 169, 1);
+  outline: none;
+  border: none;
+  color: white;
+  margin-top: 40px;
+}
+
+.TransferPowerSection {
+  position: relative;
+  bottom: 100px;
+  left: 45%;
+  display: flex;
+  height: 15px;
+}
+
+.allRows {
+  max-height: 150px;
+  overflow: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.infoModal {
+  height: 100%;
+}
+
+.infoRow {
+  height: 75px;
+}
+.infoRow p {
+  margin: 0;
+  text-align: left;
+}
+
+.infoModalBody {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* input[type="checkbox"]:checked:after {
+  content: "\f14a";
+  color: white;
+} */

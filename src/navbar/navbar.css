@@ -1,0 +1,22 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 2rem;
+  z-index: 10;
+}
+
+.navbarImage p {
+  color: rgba(114, 117, 129, 1);
+}
+.navbarImage {
+  margin-left: 2rem;
+}
+.navbarContent {
+  display: flex;
+}
+.navbarContent p {
+  color: white;
+  margin-right: 2rem;
+}
